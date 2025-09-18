@@ -6,6 +6,7 @@ from .models import Application, Enrollment, Topic, Assignment, Review
 from .serializers import ApplicationSerializer, EnrollmentSerializer, TopicSerializer, AssignmentSerializer, ReviewSerializer
 from tuition.models import Tuition
 from tuition.views import IsTutor
+from tuition.paginations import DefaultPagination
 from applications.permissions import IsTutorOrReadOnly
 from rest_framework.decorators import action
 from drf_yasg.utils import swagger_auto_schema
@@ -19,7 +20,7 @@ class IsUser(permissions.BasePermission):
 class ApplicationViewSet(viewsets.ModelViewSet):
     serializer_class = ApplicationSerializer
     queryset = Application.objects.all()
-
+    pagination_class = DefaultPagination    
     def get_permissions(self):
         if self.action == "create":
             return [IsUser()]

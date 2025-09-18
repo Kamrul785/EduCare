@@ -1,0 +1,412 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$7WcUVBIhKllvhcyq8YJ5oK$qHx84NU6dCHBF6eUEW4RNa0QJ+kP0S2B2XpCqBYt2yw=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "John",
+      "last_name": "Doe",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-09-01T10:00:00Z",
+      "email": "john.doe@example.com",
+      "role": "User",
+      "address": "123 Main Street, New York, NY 10001",
+      "phone_number": "+1234567890",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$7WcUVBIhKllvhcyq8YJ5oK$qHx84NU6dCHBF6eUEW4RNa0QJ+kP0S2B2XpCqBYt2yw=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-09-01T11:00:00Z",
+      "email": "jane.smith@example.com",
+      "role": "Tutor",
+      "address": "456 Oak Avenue, Boston, MA 02101",
+      "phone_number": "+1987654321",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$7WcUVBIhKllvhcyq8YJ5oK$qHx84NU6dCHBF6eUEW4RNa0QJ+kP0S2B2XpCqBYt2yw=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Mike",
+      "last_name": "Johnson",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-09-01T12:00:00Z",
+      "email": "mike.johnson@example.com",
+      "role": "Tutor",
+      "address": "789 Pine Road, Chicago, IL 60601",
+      "phone_number": "+1555123456",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$7WcUVBIhKllvhcyq8YJ5oK$qHx84NU6dCHBF6eUEW4RNa0QJ+kP0S2B2XpCqBYt2yw=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Emily",
+      "last_name": "Davis",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-09-01T13:00:00Z",
+      "email": "emily.davis@example.com",
+      "role": "User",
+      "address": "321 Elm Street, Los Angeles, CA 90001",
+      "phone_number": "+1444987654",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$7WcUVBIhKllvhcyq8YJ5oK$qHx84NU6dCHBF6eUEW4RNa0QJ+kP0S2B2XpCqBYt2yw=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Sarah",
+      "last_name": "Wilson",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-09-01T14:00:00Z",
+      "email": "sarah.wilson@example.com",
+      "role": "User",
+      "address": "654 Maple Drive, Miami, FL 33101",
+      "phone_number": "+1333456789",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$870000$7WcUVBIhKllvhcyq8YJ5oK$qHx84NU6dCHBF6eUEW4RNa0QJ+kP0S2B2XpCqBYt2yw=",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Dr. Robert",
+      "last_name": "Brown",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-09-01T15:00:00Z",
+      "email": "robert.brown@example.com",
+      "role": "Tutor",
+      "address": "987 Cedar Lane, Seattle, WA 98101",
+      "phone_number": "+1222345678",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "tuition.tuition",
+    "pk": 1,
+    "fields": {
+      "tutor": 2,
+      "title": "Advanced Mathematics - Calculus & Algebra",
+      "description": "Comprehensive mathematics tutoring covering calculus, algebra, and trigonometry for high school and early college students. Personalized approach with practice problems and exam preparation.",
+      "subject": "Mathematics",
+      "class_level": "Grade 11-12",
+      "availability": true,
+      "created_at": "2025-09-02T09:00:00Z",
+      "updated_at": "2025-09-02T09:00:00Z"
+    }
+  },
+  {
+    "model": "tuition.tuition",
+    "pk": 2,
+    "fields": {
+      "tutor": 3,
+      "title": "Physics Fundamentals - Mechanics & Thermodynamics",
+      "description": "Learn the fundamentals of physics including mechanics, thermodynamics, and electromagnetism. Perfect for students preparing for AP Physics or college entrance exams.",
+      "subject": "Physics",
+      "class_level": "Grade 10-12",
+      "availability": true,
+      "created_at": "2025-09-02T10:00:00Z",
+      "updated_at": "2025-09-02T10:00:00Z"
+    }
+  },
+  {
+    "model": "tuition.tuition",
+    "pk": 3,
+    "fields": {
+      "tutor": 6,
+      "title": "Organic Chemistry Mastery",
+      "description": "Master organic chemistry concepts including reaction mechanisms, stereochemistry, and synthesis. Ideal for pre-med students and chemistry majors.",
+      "subject": "Chemistry",
+      "class_level": "College Level",
+      "availability": true,
+      "created_at": "2025-09-02T11:00:00Z",
+      "updated_at": "2025-09-02T11:00:00Z"
+    }
+  },
+  {
+    "model": "tuition.tuition",
+    "pk": 4,
+    "fields": {
+      "tutor": 2,
+      "title": "Statistics & Probability for Data Science",
+      "description": "Learn statistical concepts, probability theory, and data analysis techniques. Perfect for students interested in data science and machine learning.",
+      "subject": "Statistics",
+      "class_level": "College Level",
+      "availability": true,
+      "created_at": "2025-09-02T12:00:00Z",
+      "updated_at": "2025-09-02T12:00:00Z"
+    }
+  },
+  {
+    "model": "tuition.tuition",
+    "pk": 5,
+    "fields": {
+      "tutor": 3,
+      "title": "English Literature & Writing",
+      "description": "Improve your English literature analysis skills and creative writing abilities. Covers poetry, prose, and essay writing techniques.",
+      "subject": "English",
+      "class_level": "Grade 9-12",
+      "availability": false,
+      "created_at": "2025-09-02T13:00:00Z",
+      "updated_at": "2025-09-02T13:00:00Z"
+    }
+  },
+  {
+    "model": "applications.application",
+    "pk": 1,
+    "fields": {
+      "tuition": 1,
+      "applicant": 1,
+      "status": "ACCEPTED",
+      "applied_at": "2025-09-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "applications.application",
+    "pk": 2,
+    "fields": {
+      "tuition": 2,
+      "applicant": 4,
+      "status": "ACCEPTED",
+      "applied_at": "2025-09-03T10:00:00Z"
+    }
+  },
+  {
+    "model": "applications.application",
+    "pk": 3,
+    "fields": {
+      "tuition": 3,
+      "applicant": 5,
+      "status": "PENDING",
+      "applied_at": "2025-09-03T11:00:00Z"
+    }
+  },
+  {
+    "model": "applications.application",
+    "pk": 4,
+    "fields": {
+      "tuition": 1,
+      "applicant": 4,
+      "status": "PENDING",
+      "applied_at": "2025-09-03T12:00:00Z"
+    }
+  },
+  {
+    "model": "applications.application",
+    "pk": 5,
+    "fields": {
+      "tuition": 4,
+      "applicant": 1,
+      "status": "REJECTED",
+      "applied_at": "2025-09-03T13:00:00Z"
+    }
+  },
+  {
+    "model": "applications.enrollment",
+    "pk": 1,
+    "fields": {
+      "tuition": 1,
+      "student": 1,
+      "enrolled_at": "2025-09-04T09:00:00Z"
+    }
+  },
+  {
+    "model": "applications.enrollment",
+    "pk": 2,
+    "fields": {
+      "tuition": 2,
+      "student": 4,
+      "enrolled_at": "2025-09-04T10:00:00Z"
+    }
+  },
+  {
+    "model": "applications.topic",
+    "pk": 1,
+    "fields": {
+      "enrollment": 1,
+      "title": "Introduction to Calculus",
+      "description": "Basic concepts of calculus including limits, derivatives, and their applications. Understanding the fundamental theorem of calculus.",
+      "completed": true
+    }
+  },
+  {
+    "model": "applications.topic",
+    "pk": 2,
+    "fields": {
+      "enrollment": 1,
+      "title": "Differential Calculus",
+      "description": "Advanced differentiation techniques, chain rule, product rule, and quotient rule. Applications in optimization problems.",
+      "completed": true
+    }
+  },
+  {
+    "model": "applications.topic",
+    "pk": 3,
+    "fields": {
+      "enrollment": 1,
+      "title": "Integral Calculus",
+      "description": "Integration techniques, substitution method, integration by parts, and applications of integrals in area and volume calculations.",
+      "completed": false
+    }
+  },
+  {
+    "model": "applications.topic",
+    "pk": 4,
+    "fields": {
+      "enrollment": 1,
+      "title": "Linear Algebra Basics",
+      "description": "Matrix operations, systems of linear equations, and vector spaces. Foundation for advanced mathematics.",
+      "completed": false
+    }
+  },
+  {
+    "model": "applications.topic",
+    "pk": 5,
+    "fields": {
+      "enrollment": 2,
+      "title": "Newton's Laws of Motion",
+      "description": "Understanding the three fundamental laws of motion and their applications in solving physics problems.",
+      "completed": true
+    }
+  },
+  {
+    "model": "applications.topic",
+    "pk": 6,
+    "fields": {
+      "enrollment": 2,
+      "title": "Energy and Work",
+      "description": "Concepts of kinetic energy, potential energy, work-energy theorem, and conservation of energy.",
+      "completed": true
+    }
+  },
+  {
+    "model": "applications.topic",
+    "pk": 7,
+    "fields": {
+      "enrollment": 2,
+      "title": "Thermodynamics Basics",
+      "description": "First and second laws of thermodynamics, heat engines, and entropy concepts.",
+      "completed": false
+    }
+  },
+  {
+    "model": "applications.assignment",
+    "pk": 1,
+    "fields": {
+      "enrollment": 1,
+      "title": "Calculus Problem Set 1",
+      "description": "Complete 20 differentiation problems focusing on basic rules and chain rule applications. Show all work and explain your reasoning.",
+      "due_date": "2025-09-10"
+    }
+  },
+  {
+    "model": "applications.assignment",
+    "pk": 2,
+    "fields": {
+      "enrollment": 1,
+      "title": "Optimization Project",
+      "description": "Solve 5 real-world optimization problems using calculus. Include graphical analysis and interpretation of results.",
+      "due_date": "2025-09-15"
+    }
+  },
+  {
+    "model": "applications.assignment",
+    "pk": 3,
+    "fields": {
+      "enrollment": 1,
+      "title": "Integration Techniques Practice",
+      "description": "Practice various integration techniques including substitution, integration by parts, and partial fractions. Complete the assigned worksheet.",
+      "due_date": "2025-09-20"
+    }
+  },
+  {
+    "model": "applications.assignment",
+    "pk": 4,
+    "fields": {
+      "enrollment": 2,
+      "title": "Mechanics Problem Set",
+      "description": "Solve 15 problems involving Newton's laws, friction, and circular motion. Include free body diagrams for each problem.",
+      "due_date": "2025-09-12"
+    }
+  },
+  {
+    "model": "applications.assignment",
+    "pk": 5,
+    "fields": {
+      "enrollment": 2,
+      "title": "Energy Conservation Lab Report",
+      "description": "Write a detailed lab report on the pendulum experiment demonstrating conservation of mechanical energy. Include data analysis and error discussion.",
+      "due_date": "2025-09-18"
+    }
+  },
+  {
+    "model": "applications.assignment",
+    "pk": 6,
+    "fields": {
+      "enrollment": 2,
+      "title": "Thermodynamics Case Study",
+      "description": "Research and present a case study on a real-world application of thermodynamics (heat engines, refrigeration, etc.). 5-page written report required.",
+      "due_date": "2025-09-25"
+    }
+  },
+  {
+    "model": "applications.review",
+    "pk": 1,
+    "fields": {
+      "tuition": 1,
+      "student": 1,
+      "rating": 5,
+      "comment": "Excellent tutoring experience! Jane explained calculus concepts very clearly and provided great practice problems. Highly recommend her mathematics tutoring services.",
+      "created_at": "2025-09-16T14:30:00Z"
+    }
+  },
+  {
+    "model": "applications.review",
+    "pk": 2,
+    "fields": {
+      "tuition": 2,
+      "student": 4,
+      "rating": 4,
+      "comment": "Good physics tutoring. Mike knows his subject well and is patient with explaining difficult concepts. Could use more practice problems but overall satisfied.",
+      "created_at": "2025-09-17T16:15:00Z"
+    }
+  }
+]
